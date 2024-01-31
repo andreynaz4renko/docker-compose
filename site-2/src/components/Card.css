@@ -1,0 +1,40 @@
+.user-card {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.user-online {
+    border: 1px solid green;
+    color: green;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+}
+
+.user-avatar-start {
+    flex-direction: row;
+}
+
+.user-avatar-end {
+    flex-direction: row-reverse;
+}
+
+.user-avatar-top {
+    flex-direction: column;
+}
+
+.user-avatar-bottom {
+    flex-direction: column-reverse;
+}
+
+.md-38 {
+    font-size: 38px;
+}

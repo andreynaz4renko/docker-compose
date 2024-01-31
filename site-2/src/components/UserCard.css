@@ -1,0 +1,14 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.user-is-online {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}

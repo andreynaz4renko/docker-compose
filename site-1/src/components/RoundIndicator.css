@@ -1,0 +1,38 @@
+.round-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.round-indicator > div {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.round-indicator-success {
+    background-color: #9adcc8;
+}
+
+.round-indicator-success > div {
+    background-color: #10B981;
+}
+
+.round-indicator-neutral {
+    background-color: #cfcfcf;
+}
+
+.round-indicator-neutral > div {
+    background-color: #6d6d6d;
+}
+
+.round-indicator-fail {
+    background-color: #f45c5c;
+}
+
+.round-indicator-fail > div {
+    background-color: #e40e0e;
+}

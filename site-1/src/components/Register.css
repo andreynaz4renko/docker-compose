@@ -1,0 +1,68 @@
+h1 {
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 320px;
+    font-size: 14px;
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.login-input-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-input {
+    display: flex;
+    padding: 8px;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.login-password-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #007AFF;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.login-form a {
+    color: #007AFF;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    color: #003064;
+}
